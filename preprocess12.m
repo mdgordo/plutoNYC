@@ -1,9 +1,6 @@
 %% delete extra variables
 % Note: 12 and earlier have only 2 FAR variables instead of 4
 bk12.Borough=[];
-bk12.CD=[]; 
-bk12.CT2010=[]; 
-bk12.CB2010=[];
 bk12.Council=[]; 
 bk12.FireComp=[]; 
 bk12.PolicePrct=[]; 
