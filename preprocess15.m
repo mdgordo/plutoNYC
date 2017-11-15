@@ -1,8 +1,5 @@
 % %% delete extra variables
  bk15.Borough=[];
- bk15.CD=[]; 
- bk15.CT2010=[]; 
- bk15.CB2010=[];
  bk15.Council=[]; 
  bk15.FireComp=[]; 
  bk15.PolicePrct=[]; 
