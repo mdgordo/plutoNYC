@@ -14,9 +14,6 @@ bk10=readtable('BK10.txt',opts);
 %% delete extra variables
 bk16.Borough=[];
 bk16.CD=[]; 
-bk16.CT2010=[]; 
-bk16.CB2010=[];
-bk16.Council=[]; 
 bk16.FireComp=[]; 
 bk16.PolicePrct=[]; 
 bk16.HealthArea=[]; 
