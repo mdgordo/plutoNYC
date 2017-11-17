@@ -151,7 +151,7 @@ bk16=[bk16 table(BuildingClass)];
 %% create value per square foot
 % special treatment of condos and vacant land? 
 
-ValPSF=bk16.AssessTot./bk16.BldgArea;
+ValPSF=(bk16.AssessTot-bk16.AssessLand)./bk16.BldgArea;
 ValPSF(isnan(ValPSF)==1)=0;
 ValPSF(isinf(ValPSF)==1)=0;
 bk16=[bk16 table(ValPSF)];
