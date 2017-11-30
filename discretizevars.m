@@ -1,4 +1,5 @@
 %% discretize sample variable
+%% uses knee_pt package: https://www.mathworks.com/matlabcentral/fileexchange/35094-knee-point
 opts=detectImportOptions('bk10-16.csv');
 bk=readtable('bk10-16.csv',opts);
 bk(:,44:end)=[]; %% only for one year for now
